@@ -84,6 +84,12 @@ class Main extends Component {
             )}
           </div>
         </div>
+
+        <div className = {"row row-margin row-justify-content-center"}>
+          <h4>
+          {this.state.activeTimer ? "The process is running!" : "The process is stopped!"}
+          </h4>
+        </div>
       </div>
     );
   }
