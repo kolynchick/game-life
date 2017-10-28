@@ -1,0 +1,55 @@
+
+.field {
+  border: 1px solid black;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.row-justify-content-center {justify-content: center;}
+
+.row-margin {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.field > div {
+  border: 1px solid black;
+}
+
+
+@media (min-width: 1200px) {
+ .field-size {
+    width: 800px;
+    height: 800px;
+ }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .field-size {
+    width: 600px;
+    height: 600px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .field-size {
+    width: 450px;
+    height: 450px;
+  }
+}
+
+@media (max-width: 767px) {
+  .field-size {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .field-size {
+    width: 200px;
+    height: 200px;
+  }
+}
